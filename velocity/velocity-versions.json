@@ -1,0 +1,25 @@
+{
+    "latest": "4.1.2-SNAPSHOT",
+    "versions": {
+        "4.1.2-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/5d3f48df4b160077aaf159b154fef9fde0a198119b99285c26ce2df1a0357bd8/velocity-4.1.2-SNAPSHOT-28.jar",
+        "4.1.1": "https://fill-data.papermc.io/v1/objects/846411d2d0560fed0f23496ffb89681be528d2c0650ecdcf21724d2d7bd9c1ee/velocity-4.1.1-24.jar",
+        "4.1.1-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/4e7206b3933b25050aba299ba0eea850f6f53b0f4726281f94b8629babe9150b/velocity-4.1.1-SNAPSHOT-23.jar",
+        "4.1.0": "https://fill-data.papermc.io/v1/objects/bff15036c6a43f0db66600ee405407aa71e95fbf05d692e35e8ab364c7c9083d/velocity-4.1.0-22.jar",
+        "4.1.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/f840e8dbf9e3220f1ae400aa67c462ef4213d64fd03209dae284e2e991147c93/velocity-4.1.0-SNAPSHOT-21.jar",
+        "4.0.0": "https://fill-data.papermc.io/v1/objects/4540289f48c83e305fc2f2c495a84d1f4d0b7f360830251e169dd5a208740e70/velocity-4.0.0-6.jar",
+        "4.0.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/7dc974ba4b3094d05d308032790a22e5348845c46d82c664730b169ce2b4ea79/velocity-4.0.0-SNAPSHOT-5.jar",
+        "3.5.1": "https://fill-data.papermc.io/v1/objects/b4e3164df5377346854dc6cb9e6a78022b1946ff69e89676313f5f6f1c6f0fb3/velocity-3.5.1-615.jar",
+        "3.6.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/a87eea534bd483209aa5ccb03822cb14d5006796d9c18a59e6e34cfd3c28b5b0/velocity-3.6.0-SNAPSHOT-613.jar",
+        "3.5.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/0c3d16b70ed757638b696a9a87d670b4301f23a6fef30c3acbbd9b0e0d7b29bb/velocity-3.5.0-SNAPSHOT-609.jar",
+        "3.4.0": "https://fill-data.papermc.io/v1/objects/fb599cbda6a6d01decce5e281f71f51cae7cacffcfafca32a09601f407b0583e/velocity-3.4.0-566.jar",
+        "3.4.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/fe53021f3168322cb6cb68f78699866fd098df3c306e4359847a10b0d02689ef/velocity-3.4.0-SNAPSHOT-563.jar",
+        "3.3.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/06bb2a6ac16228a2f33a0336952624e6918a97535d36a3660725b18e2a6efdfb/velocity-3.3.0-SNAPSHOT-436.jar",
+        "3.2.0-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/27f78414a3c39736130b28e69c2d22f52e13cb6c70a9245a7c07a4a76787723e/velocity-3.2.0-SNAPSHOT-296.jar",
+        "3.1.2-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/823393405413413dae1f7c83c89851dbe7439e719cc31793a15b9aad951a4315/velocity-3.1.2-SNAPSHOT-207.jar",
+        "3.1.1": "https://fill-data.papermc.io/v1/objects/89a44c6385e39712717e2476254f931717f4d718deeb72578d159187cf5119c7/velocity-3.1.1-102.jar",
+        "3.1.1-SNAPSHOT": "https://fill-data.papermc.io/v1/objects/f2fbf80d9ef089d9905db3b841232d25a2e16a6208dfadb5704a3d9f9ead8e8d/velocity-3.1.1-SNAPSHOT-97.jar",
+        "3.1.0": "https://fill-data.papermc.io/v1/objects/7b509535916a3ee4dacea289915a2851b87f4738bd42f12ff38b674417b5f683/velocity-3.1.0-95.jar",
+        "1.1.9": "https://fill-data.papermc.io/v1/objects/d6ba2c934eb956b3aea5381135fb6c5763bb3a50a85022671fac6f5bfed63843/velocity-1.1.9-447.jar",
+        "1.0.10": "https://fill-data.papermc.io/v1/objects/16e786af6b6c9c34e77f6229c8fd573b7b97a8394beb3575bfdfa0b34826cae3/velocity-1.0.10-245.jar"
+    }
+}
