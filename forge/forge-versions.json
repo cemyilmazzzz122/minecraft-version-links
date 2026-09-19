@@ -1,6 +1,10 @@
 {
-    "latest": "26.2",
+    "latest": "26.3",
     "versions": {
+        "26.3": {
+            "forge": "66.0.0",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.0.0/forge-26.3-66.0.0-installer.jar"
+        },
         "26.2": {
             "forge": "65.1.0",
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.0/forge-26.2-65.1.0-installer.jar"
