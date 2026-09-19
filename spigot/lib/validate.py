@@ -29,6 +29,24 @@ async def lintCheck():
     print("Linting passed!\n\n")
 
 
+async def checkLink(session, url, attempts=3):
+    # Retry on 5xx / connection errors so a transient CDN hiccup
+    # (e.g. Cloudflare 520/521) doesn't fail the whole run.
+    status = None
+    for attempt in range(1, attempts + 1):
+        try:
+            async with session.head(url, allow_redirects=True) as response:
+                status = response.status
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            status = type(e).__name__
+        else:
+            if status < 500:
+                return status
+        if attempt < attempts:
+            await asyncio.sleep(attempt * 5)
+    return status
+
+
 async def validateLinks():
     print("Validating links...")
     file = sys.argv[1]
@@ -43,13 +61,13 @@ async def validateLinks():
 
     async with aiohttp.ClientSession() as session:
         for url in urls:
-            async with session.head(url, allow_redirects=True) as response:
-                if response.status == 200:
-                    print("0")
-                else:
-                    print(f"Link is invalid: {url} ({response.status})")
-                    all_links_valid = False
-                    invalid.append(url)
+            status = await checkLink(session, url)
+            if status == 200:
+                print("0")
+            else:
+                print(f"Link is invalid: {url} ({status})")
+                all_links_valid = False
+                invalid.append(url)
 
     if all_links_valid:
         print("All links are valid!\n\n")
