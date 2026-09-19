@@ -9,6 +9,24 @@ PAGE = "https://getbukkit.org/download/spigot"
 CDN = "https://cdn.getbukkit.org/spigot/spigot-{version}.jar"
 
 
+async def headStatus(session, url, attempts=3):
+    # Retry on 5xx / connection errors so a transient CDN hiccup
+    # doesn't silently drop a version from the output.
+    status = None
+    for attempt in range(1, attempts + 1):
+        try:
+            async with session.head(url, allow_redirects=True) as resp:
+                status = resp.status
+        except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+            status = type(e).__name__
+        else:
+            if status < 500:
+                return status
+        if attempt < attempts:
+            await asyncio.sleep(attempt * 5)
+    return status
+
+
 class Main:
     async def main():
         async with aiohttp.ClientSession() as session:
@@ -22,9 +40,11 @@ class Main:
             data = {}
             for v in versions:
                 url = CDN.format(version=v)
-                async with session.head(url, allow_redirects=True) as resp:
-                    if resp.status == 200:
-                        data[v] = url
+                status = await headStatus(session, url)
+                if status == 200:
+                    data[v] = url
+                else:
+                    print(f"Skipping {v}: {url} ({status})")
 
             return {"latest": versions[0], "versions": data}
 
