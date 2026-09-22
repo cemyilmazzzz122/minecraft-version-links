@@ -1,9 +1,15 @@
 {
-    "latest": "26.3",
+    "latest": "26.4-snapshot-1",
     "latestStable": "26.3",
     "loader": "0.19.5",
     "installer": "1.1.2",
     "versions": {
+        "26.4-snapshot-1": {
+            "stable": false,
+            "loader": "0.19.5",
+            "installer": "1.1.2",
+            "url": "https://meta.fabricmc.net/v2/versions/loader/26.4-snapshot-1/0.19.5/1.1.2/server/jar"
+        },
         "26.3": {
             "stable": true,
             "loader": "0.19.5",
