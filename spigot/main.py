@@ -1,11 +1,10 @@
 import aiohttp
 import json
 import asyncio
-import re
 import sys
 import os
 
-PAGE = "https://getbukkit.org/download/spigot"
+API = "https://getbukkit.org/api/jars"
 CDN = "https://cdn.getbukkit.org/spigot/spigot-{version}.jar"
 
 
@@ -30,12 +29,13 @@ async def headStatus(session, url, attempts=3):
 class Main:
     async def main():
         async with aiohttp.ClientSession() as session:
-            async with session.get(PAGE) as response:
-                html = await response.text()
+            async with session.get(API) as response:
+                response.raise_for_status()
+                jars = await response.json()
 
-            versions = re.findall(r"<h4>Version</h4>\s*<h2>([^<]+)</h2>", html)
+            versions = [j["version"] for j in jars.get("spigot", [])]
             if not versions:
-                raise RuntimeError("No versions found on getbukkit.org page; page layout may have changed")
+                raise RuntimeError("No versions found in getbukkit.org API response; API format may have changed")
 
             data = {}
             for v in versions:

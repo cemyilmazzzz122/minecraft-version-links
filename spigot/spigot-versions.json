@@ -1,6 +1,7 @@
 {
-    "latest": "26.2",
+    "latest": "26.3",
     "versions": {
+        "26.3": "https://cdn.getbukkit.org/spigot/spigot-26.3.jar",
         "26.2": "https://cdn.getbukkit.org/spigot/spigot-26.2.jar",
         "26.1.2": "https://cdn.getbukkit.org/spigot/spigot-26.1.2.jar",
         "26.1.1": "https://cdn.getbukkit.org/spigot/spigot-26.1.1.jar",
