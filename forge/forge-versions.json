@@ -2,16 +2,16 @@
     "latest": "26.3",
     "versions": {
         "26.3": {
-            "forge": "66.0.13",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.0.13/forge-26.3-66.0.13-installer.jar"
+            "forge": "66.1.0",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.3-66.1.0/forge-26.3-66.1.0-installer.jar"
         },
         "26.2": {
-            "forge": "65.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.0/forge-26.2-65.1.0-installer.jar"
+            "forge": "65.1.5",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.2-65.1.5/forge-26.2-65.1.5-installer.jar"
         },
         "26.1.2": {
-            "forge": "64.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.0/forge-26.1.2-64.1.0-installer.jar"
+            "forge": "64.1.5",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.1.5/forge-26.1.2-64.1.5-installer.jar"
         },
         "26.1.1": {
             "forge": "63.0.2",
@@ -22,20 +22,20 @@
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1-62.0.9/forge-26.1-62.0.9-installer.jar"
         },
         "1.21.11": {
-            "forge": "61.2.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-installer.jar"
+            "forge": "61.2.4",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.2.4/forge-1.21.11-61.2.4-installer.jar"
         },
         "1.21.10": {
-            "forge": "60.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.0/forge-1.21.10-60.1.0-installer.jar"
+            "forge": "60.1.18",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.1.18/forge-1.21.10-60.1.18-installer.jar"
         },
         "1.21.9": {
             "forge": "59.0.5",
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.9-59.0.5/forge-1.21.9-59.0.5-installer.jar"
         },
         "1.21.8": {
-            "forge": "58.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.0/forge-1.21.8-58.1.0-installer.jar"
+            "forge": "58.1.26",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.1.26/forge-1.21.8-58.1.26-installer.jar"
         },
         "1.21.7": {
             "forge": "57.0.3",
@@ -46,32 +46,32 @@
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.6-56.0.9/forge-1.21.6-56.0.9-installer.jar"
         },
         "1.21.5": {
-            "forge": "55.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.0/forge-1.21.5-55.1.0-installer.jar"
+            "forge": "55.1.18",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.1.18/forge-1.21.5-55.1.18-installer.jar"
         },
         "1.21.4": {
-            "forge": "54.1.14",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.14/forge-1.21.4-54.1.14-installer.jar"
+            "forge": "54.1.22",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.22/forge-1.21.4-54.1.22-installer.jar"
         },
         "1.21.3": {
-            "forge": "53.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.0/forge-1.21.3-53.1.0-installer.jar"
+            "forge": "53.1.16",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.1.16/forge-1.21.3-53.1.16-installer.jar"
         },
         "1.21.1": {
-            "forge": "52.1.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.0/forge-1.21.1-52.1.0-installer.jar"
+            "forge": "52.1.20",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.1-52.1.20/forge-1.21.1-52.1.20-installer.jar"
         },
         "1.21": {
             "forge": "51.0.33",
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21-51.0.33/forge-1.21-51.0.33-installer.jar"
         },
         "1.20.6": {
-            "forge": "50.2.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.0/forge-1.20.6-50.2.0-installer.jar"
+            "forge": "50.2.14",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.6-50.2.14/forge-1.20.6-50.2.14-installer.jar"
         },
         "1.20.4": {
-            "forge": "49.2.0",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.0/forge-1.20.4-49.2.0-installer.jar"
+            "forge": "49.2.13",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.4-49.2.13/forge-1.20.4-49.2.13-installer.jar"
         },
         "1.20.3": {
             "forge": "49.0.2",
@@ -82,8 +82,8 @@
             "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.2-48.1.0/forge-1.20.2-48.1.0-installer.jar"
         },
         "1.20.1": {
-            "forge": "47.4.10",
-            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+            "forge": "47.4.28",
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-installer.jar"
         },
         "1.20": {
             "forge": "46.0.14",
